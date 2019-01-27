@@ -1,3 +1,52 @@
 body {
 	text-align: center;
+	max-width: 648px;
+}
+
+header {
+	background: #c93042;
+	color: white;
+	padding: 10px 0px;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.3em;
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 3.7em;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	position: relative;
+}
+
+.text {
+	position: absolute;
+	text-align: left;
+	color: white;
+	font-family: sans-serif;
+	top: 30px;
+	right: 45px;
+	max-width: 212px;
+}
+
+.text h3 {
+	;
+}
+
+.text p {
+	font-size: .85em;
+	line-height: 1.2em;
+}
+
+div a {
+	font-family: serif;
+	text-decoration: none;
+	color: black;
 }
