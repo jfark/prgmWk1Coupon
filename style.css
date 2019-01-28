@@ -31,22 +31,55 @@ main {
 	text-align: left;
 	color: white;
 	font-family: sans-serif;
-	top: 30px;
-	right: 45px;
-	max-width: 212px;
+	top: 35px;
+	right: 43px;
+	max-width: 216px;
 }
 
 .text h3 {
-	;
+	line-height: 1.2em;
+	letter-spacing: .02em;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .text p {
-	font-size: .85em;
-	line-height: 1.2em;
+	font-size: .84em;
+	line-height: 1.28em;
+	padding-top: 0;
+	margin-top: 7px;
 }
 
-div a {
+.button {
+	background: #ffc5c1;
+	border-radius: 10px;
+	margin: 0px 12px 0px 10px;
+	padding: 5px 25px 0px 15px;
+	position: relative;
+	text-align: center;
+}
+
+.button a {
 	font-family: serif;
 	text-decoration: none;
 	color: black;
+}
+
+.button p {
+	font-size: 1.2em;
+	font-weight: bold;
+	max-width: 85px;
+	margin: 0px 35px;
+	padding: 0px 0px 5px 0px;
+}
+
+.button i {
+	color: #f25125;
+	font-size: 2.7em;
+}
+
+.caret {
+	position: absolute;
+	top: 7px;
+	right: 15px;
 }
